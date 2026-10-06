@@ -1,0 +1,13 @@
+SEEDFUND SHORT TREASURY MMF - SUBSCRIPTION FORM (fictional fund)
+Form ID: SF-2026-0104
+Legal name: Tiago Almeida
+Investor type: Individual
+Country of residence: Portugal (PT)
+Share class: USD-D
+Currency: USDC
+Subscription amount (figures): 3,333.33
+Subscription amount (words): three thousand three hundred thirty-three
+Stellar wallet: GDQVFSBJR7II2WDVAQ6JRGDLYZ73V6Z2CGL5Y5H2UYTPTYN4PNUR6YPT
+Cash address(es): GAL6SFZXMYFDOJHZWF6OUHAQULUUPHBIXYXR7WESFZ4JB33Q4JIATCPS
+Signature: 
+Date: 2026-10-05

@@ -1,0 +1,22 @@
+{
+  "name": "fund-desk",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Transfer-agent CLI for a tokenised fund on Stellar: async subscriptions and redemptions, KYC-gated register, distributions",
+  "type": "module",
+  "bin": { "funddesk": "dist/src/cli.js" },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test \"dist/test/*.test.js\"",
+    "demo": "tsc -p tsconfig.json && node dist/src/demo.js",
+    "funddesk": "node dist/src/cli.js"
+  },
+  "engines": { "node": ">=22" },
+  "dependencies": {
+    "@stellar/stellar-sdk": "^17.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "typescript": "^5.9.0"
+  }
+}

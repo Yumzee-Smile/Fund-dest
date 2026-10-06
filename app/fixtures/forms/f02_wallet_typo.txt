@@ -1,0 +1,13 @@
+SEEDFUND SHORT TREASURY MMF - SUBSCRIPTION FORM (fictional fund)
+Form ID: SF-2026-0102
+Legal name: Ana Costa
+Investor type: Individual
+Country of residence: Portugal (PT)
+Share class: USD-D
+Currency: USDC
+Subscription amount (figures): 15,000.00
+Subscription amount (words): fifteen thousand
+Stellar wallet: GCVNL7RHZY4TAJJQOIPBAQUIXGHL6UT42Q2IUAWDXOPYKQE3NVGUSPSA
+Cash address(es): GAZN672R7BDB2ABH5RMN6JLJEB7RLOTMXFPHOWMI6ENAXYHCQ3KDCQ5V
+Signature: /s/ A. Costa
+Date: 2026-10-05

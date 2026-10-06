@@ -1,0 +1,328 @@
+[
+  {
+    "investor_id": "inv_01",
+    "legal_name": "Amélie Laurent",
+    "investor_type": 0,
+    "class": "USD-D",
+    "jurisdiction": "FR",
+    "kyc_expiry": "2027-06-30T00:00:00Z",
+    "kyc_expiry_unix": 1814313600,
+    "wallet": "GBKKC7KJDN733KFBYAAXBTQPPBDGR7OZUET7MA7KKM7ELRCGFTWVZ4WL",
+    "cash_addresses": [
+      "GDRHJIMZXTQZBKHBTDX6L46JMYWZX5KJFSPPFJMCC5ED2KEZACGSR7OH"
+    ]
+  },
+  {
+    "investor_id": "inv_02",
+    "legal_name": "Jonas Weber",
+    "investor_type": 0,
+    "class": "USD-D",
+    "jurisdiction": "DE",
+    "kyc_expiry": "2027-03-15T00:00:00Z",
+    "kyc_expiry_unix": 1805068800,
+    "wallet": "GAYKAM5F7YULS4IUCTE64DEWZH5Y3TFYR5AF4TSV5EMYIP6BF3XAQRGP",
+    "cash_addresses": [
+      "GA7MZJXVNKBFYIO6TTEZ6QWJVQGGFY7IA72PQ6TWZTSK6GEJ7VBIGEYD"
+    ]
+  },
+  {
+    "investor_id": "inv_03",
+    "legal_name": "Pieter van Dijk",
+    "investor_type": 0,
+    "class": "USD-D",
+    "jurisdiction": "NL",
+    "kyc_expiry": "2027-11-02T00:00:00Z",
+    "kyc_expiry_unix": 1825113600,
+    "wallet": "GAFOGBYNDKLQ2HF7NPAJ2GNYDLJ53FNDAYD6RRFWIJSTRMLWM4UGNIKQ",
+    "cash_addresses": [
+      "GA7AOHCKDXGWX554P3LXDM6QT6SKJI5JXGIBPUVRLD2DEFHGKBIGX4MR"
+    ]
+  },
+  {
+    "investor_id": "inv_04",
+    "legal_name": "Lucía Fernández",
+    "investor_type": 0,
+    "class": "USD-D",
+    "jurisdiction": "ES",
+    "kyc_expiry": "2028-01-19T00:00:00Z",
+    "kyc_expiry_unix": 1831852800,
+    "wallet": "GA34RQFRQZYRG2XZDXXCDKB6Z5JHERBRLEQ7GBPGZMV75BTSMTO7SY25",
+    "cash_addresses": [
+      "GARTBZF2DXI7HDG5SI3GG5XBNLZXBUNXO2IIAO5IV4IPJYT55IYKOZJO"
+    ]
+  },
+  {
+    "investor_id": "inv_05",
+    "legal_name": "Marco Bianchi",
+    "investor_type": 0,
+    "class": "USD-D",
+    "jurisdiction": "IT",
+    "kyc_expiry": "2027-09-09T00:00:00Z",
+    "kyc_expiry_unix": 1820448000,
+    "wallet": "GDDCAV46G54FDELS3OUH5TFQNG5V7FCHDLULHHNE2Q62S3YNQ3VBFBMW",
+    "cash_addresses": [
+      "GDFYICCXMS7S5JVK52TRA345WBZF7OZ2YAZSBCXKHJRUFAMYCWK6MMXL"
+    ]
+  },
+  {
+    "investor_id": "inv_06",
+    "legal_name": "Helvetia Reserve AG",
+    "investor_type": 1,
+    "class": "USD-D",
+    "jurisdiction": "CH",
+    "kyc_expiry": "2027-12-31T00:00:00Z",
+    "kyc_expiry_unix": 1830211200,
+    "wallet": "GDICS7TKLJTTXXSQ2BVDIAQAHTV6KTMPYQLIOCSKN4QWTAOIGCMQHDYJ",
+    "cash_addresses": [
+      "GBXAGWL73BZGGWKRYST7KWGFOBGBIRC6QX6MYR4NAEY5KB7EXRD6OIDF"
+    ]
+  },
+  {
+    "investor_id": "inv_07",
+    "legal_name": "Siobhán Murphy",
+    "investor_type": 0,
+    "class": "USD-D",
+    "jurisdiction": "IE",
+    "kyc_expiry": "2026-10-06T12:00:00Z",
+    "kyc_expiry_unix": 1791288000,
+    "wallet": "GAJLZDDRAK45ZO6OXDK4MUAOZQO367LUVVESLPEOKSWRNAAFWZKVFGEN",
+    "cash_addresses": [
+      "GCYM63SO7RLAKAFTIAKUDXVSSW6EZ6DK46JV6TZ5O62PTYYNQ2REUCPK"
+    ]
+  },
+  {
+    "investor_id": "inv_08",
+    "legal_name": "Marie Dubois",
+    "investor_type": 0,
+    "class": "USD-D",
+    "jurisdiction": "FR",
+    "kyc_expiry": "2027-04-04T00:00:00Z",
+    "kyc_expiry_unix": 1806796800,
+    "wallet": "GCPAA4OBWPFXZU36EJF7E5CK4GM7WHZX3PGA7T4PJPEAFBWCW6H6CTUF",
+    "cash_addresses": [
+      "GBLFD7VI77SJP5SVTPSYIFPQCDHQAV53YNSFKK2MX5TWXICLZ4DUZZSY"
+    ]
+  },
+  {
+    "investor_id": "inv_09",
+    "legal_name": "Tiago Almeida",
+    "investor_type": 0,
+    "class": "USD-D",
+    "jurisdiction": "PT",
+    "kyc_expiry": "2027-08-15T00:00:00Z",
+    "kyc_expiry_unix": 1818288000,
+    "wallet": "GDQVFSBJR7II2WDVAQ6JRGDLYZ73V6Z2CGL5Y5H2UYTPTYN4PNUR6YPT",
+    "cash_addresses": [
+      "GAL6SFZXMYFDOJHZWF6OUHAQULUUPHBIXYXR7WESFZ4JB33Q4JIATCPS"
+    ]
+  },
+  {
+    "investor_id": "inv_10",
+    "legal_name": "Bramwell Treasury SARL",
+    "investor_type": 1,
+    "class": "USD-D",
+    "jurisdiction": "LU",
+    "kyc_expiry": "2028-03-31T00:00:00Z",
+    "kyc_expiry_unix": 1838073600,
+    "wallet": "GDICUKXEA7QV77PWBRIEXILK3LTCHZCCXUTUCAW3XDD5DB644UMZ5D7N",
+    "cash_addresses": [
+      "GCPPYEP5FAIPJXIQDUMK2IL4M6NQOIQBF45MS5ZKVFHAVCFMBEEJTU7R",
+      "GCLCFIGDUM2DG6RIW7UETCA5S7YEB7XOOWX2LIT6ONA5UMG3JDZ2TBBV"
+    ]
+  },
+  {
+    "investor_id": "inv_11",
+    "legal_name": "Katharina Gruber",
+    "investor_type": 0,
+    "class": "USD-D",
+    "jurisdiction": "AT",
+    "kyc_expiry": "2027-02-28T00:00:00Z",
+    "kyc_expiry_unix": 1803772800,
+    "wallet": "GATJW5YJGORHEMBRL3GQBW6VGEQEK63IBQIDCPBEFBTWIU4PQQ4M6XW6",
+    "cash_addresses": [
+      "GAQNNJUW265GURJ5PFHI4WCFUA6TS5AJYTWBEZH44OSNOEPU3MQAS3JA"
+    ]
+  },
+  {
+    "investor_id": "inv_12",
+    "legal_name": "Noor Al Mansoori",
+    "investor_type": 0,
+    "class": "USD-D",
+    "jurisdiction": "AE",
+    "kyc_expiry": "2026-10-07T00:00:00Z",
+    "kyc_expiry_unix": 1791331200,
+    "wallet": "GCVRZF56A5OEJWHMEIT6WXGHCYRFT6NNHL6X2QXNJAX2CQ7T66LI62XW",
+    "cash_addresses": [
+      "GAU7J7QHQJBTO7XTYO4AYOCWK5EY5H6RLA2JAFWUDRZK2YG2RJGZZRVR"
+    ]
+  },
+  {
+    "investor_id": "inv_13",
+    "legal_name": "Marie Dubois",
+    "investor_type": 0,
+    "class": "USD-D",
+    "jurisdiction": "BE",
+    "kyc_expiry": "2027-10-10T00:00:00Z",
+    "kyc_expiry_unix": 1823126400,
+    "wallet": "GBX5AE4SPRTCMRTLRZKHS4YZLK356PU5DAUCWWBZZLAGPZ5Z23XRBPKW",
+    "cash_addresses": [
+      "GAQAE5IXWIX26IHQEX2FCRKWSXGO6CGBG2PSGY37UVJLZ24SEWE2HWTD"
+    ]
+  },
+  {
+    "investor_id": "inv_14",
+    "legal_name": "Lim Wei Ling",
+    "investor_type": 0,
+    "class": "USD-D",
+    "jurisdiction": "SG",
+    "kyc_expiry": "2027-05-05T00:00:00Z",
+    "kyc_expiry_unix": 1809475200,
+    "wallet": "GCWIM6ZITH2GUJO3MBWXSV5QEON6YCMSERGR6OO53EHLNLTFNFDTZI6K",
+    "cash_addresses": [
+      "GDMTDDZMGHIZZIGFKETUO3CBMJEYWK5ZZ7T34M5TK6VMAXSKI7UUPNSS"
+    ]
+  },
+  {
+    "investor_id": "inv_15",
+    "legal_name": "Sophie Janssens",
+    "investor_type": 0,
+    "class": "USD-D",
+    "jurisdiction": "BE",
+    "kyc_expiry": "2027-07-07T00:00:00Z",
+    "kyc_expiry_unix": 1814918400,
+    "wallet": "GDCLOLMNHV53S2OEEI5WVGGEZVUB7CSR4N7M6LYZPIQ5L3HLL7Y762V7",
+    "cash_addresses": [
+      "GASUKWKNRZYEY3LYJXZNR3FSYBHPZEGMW5MRFAOPPLV5P3YRLSNSIJ3F"
+    ]
+  },
+  {
+    "investor_id": "inv_16",
+    "legal_name": "Élodie Martin",
+    "investor_type": 0,
+    "class": "EUR-A",
+    "jurisdiction": "FR",
+    "kyc_expiry": "2027-12-12T00:00:00Z",
+    "kyc_expiry_unix": 1828569600,
+    "wallet": "GDYCVYYUMWTPLQ7DLK42JGB7O3C5TRIVPV3PXV77MWWNM7DU3MT3HD3O",
+    "cash_addresses": [
+      "GBPBV73GICRJQRKMZHFQ7A2WJR6PREZRMZRKKIZYEWGAQCTDRTECEEA6"
+    ]
+  },
+  {
+    "investor_id": "inv_17",
+    "legal_name": "Hans Müller",
+    "investor_type": 0,
+    "class": "EUR-A",
+    "jurisdiction": "DE",
+    "kyc_expiry": "2027-01-31T00:00:00Z",
+    "kyc_expiry_unix": 1801353600,
+    "wallet": "GAJW64OQXQP2QLWP7B2TSJMR3VCL4NYTD4N4VQ63B35GWM2RZXWM75QI",
+    "cash_addresses": [
+      "GBJ3FGFF77ZKXNAC6J6HODSG2YY5EK5RDENMSXXZ6TZ5UCM5FNFCR4D2"
+    ]
+  },
+  {
+    "investor_id": "inv_18",
+    "legal_name": "Giulia Rossi",
+    "investor_type": 0,
+    "class": "USD-D",
+    "jurisdiction": "IT",
+    "kyc_expiry": "2027-03-03T00:00:00Z",
+    "kyc_expiry_unix": 1804032000,
+    "wallet": "GD7RPSDKCZLDJGEKNCVBBQT7G4T5N34PIZSRFMD4CYIOFJZR2P6T2XND",
+    "cash_addresses": [
+      "GC5TB7UTHOG6JGEHXDFLTDIBEIMGPVWNOD5KODHASF5HASKWYTSVYY3E"
+    ]
+  },
+  {
+    "investor_id": "inv_19",
+    "legal_name": "Oliver Schmid",
+    "investor_type": 0,
+    "class": "USD-D",
+    "jurisdiction": "CH",
+    "kyc_expiry": "2026-10-06T20:00:00Z",
+    "kyc_expiry_unix": 1791316800,
+    "wallet": "GABV74RB7GOYEMB3FMG5M3Y2BOYXRBVLS3HKWQDK4JD4LYSJH5P33OJB",
+    "cash_addresses": [
+      "GAIAMEGKBJUZ35DAENBONP3OSUMRXWSDMR7PZA65PXK32LC2EW5SYSS7"
+    ]
+  },
+  {
+    "investor_id": "inv_20",
+    "legal_name": "Ana Costa",
+    "investor_type": 0,
+    "class": "USD-D",
+    "jurisdiction": "PT",
+    "kyc_expiry": "2027-06-06T00:00:00Z",
+    "kyc_expiry_unix": 1812240000,
+    "wallet": "GCVNL7RHZY4TAJJQOIPBAQUIXGHL6UT42Q2IUAWDXOPYKQE3NVGUSPSZ",
+    "cash_addresses": [
+      "GAZN672R7BDB2ABH5RMN6JLJEB7RLOTMXFPHOWMI6ENAXYHCQ3KDCQ5V"
+    ]
+  },
+  {
+    "investor_id": "inv_21",
+    "legal_name": "Jan de Vries",
+    "investor_type": 0,
+    "class": "EUR-A",
+    "jurisdiction": "NL",
+    "kyc_expiry": "2027-09-30T00:00:00Z",
+    "kyc_expiry_unix": 1822262400,
+    "wallet": "GDFRXVXVJFNYOC6SLBDUYT2GDOQTNS5T2HBDA6XIEWAU4UD3BYGRSMOZ",
+    "cash_addresses": [
+      "GCU6KPDP7Z72JKWWEWGHVKYFRLTPUZMEEZ2JUEPLNKHC5UIET2O222PN"
+    ]
+  },
+  {
+    "investor_id": "inv_22",
+    "legal_name": "Carmen Ruiz",
+    "investor_type": 0,
+    "class": "EUR-A",
+    "jurisdiction": "ES",
+    "kyc_expiry": "2027-04-30T00:00:00Z",
+    "kyc_expiry_unix": 1809043200,
+    "wallet": "GCGIUBAIJHH2BZN53XI6CGJ4FAIEBY6VCLSSHDBZHJAKSXEVMMU3MONC",
+    "cash_addresses": [
+      "GCM3UJYOYO2PFN4A4WDWXLKYANRK4IPTAZZPP2XJTZYXDYUQB6OTDHXS"
+    ]
+  },
+  {
+    "investor_id": "inv_23",
+    "legal_name": "Robert Miller",
+    "investor_type": 0,
+    "class": "USD-D",
+    "jurisdiction": "US",
+    "kyc_expiry": "2027-08-08T00:00:00Z",
+    "kyc_expiry_unix": 1817683200,
+    "wallet": "GCKJNG7YBPZZNVMQLV7OQZM5NYW7BNOYT2BCALMV6B2I5W7TH2VVBIK2",
+    "cash_addresses": [
+      "GBFMWF4J2G6HHS6NJBB6W7JYIS6RGTIEOF5YRXMELTLIWNPV7C4GGWPF"
+    ]
+  },
+  {
+    "investor_id": "inv_24",
+    "legal_name": "Yasmin Haddad",
+    "investor_type": 0,
+    "class": "EUR-A",
+    "jurisdiction": "CH",
+    "kyc_expiry": "2027-11-11T00:00:00Z",
+    "kyc_expiry_unix": 1825891200,
+    "wallet": "GC5L2YTEFTINVCX43FZQ3WLVIDNCA6U6CR6SWH2M7O4TXXXFFT7T3WSZ",
+    "cash_addresses": [
+      "GC3AW52NMC64SW5SQCWQUE27R4HPOP25SBV4RUSPAVJWUBPG7VC5J2HW"
+    ]
+  },
+  {
+    "investor_id": "inv_25",
+    "legal_name": "Lukas Novak",
+    "investor_type": 0,
+    "class": "USD-D",
+    "jurisdiction": "AT",
+    "kyc_expiry": "2027-02-14T00:00:00Z",
+    "kyc_expiry_unix": 1802563200,
+    "wallet": "GBXB6EGTMLSKBXNCTNDH6P6IDW55NIV3BY5I2NHKU2XQY7YANNRTNL2D",
+    "cash_addresses": [
+      "GCTRUP54D6E5GB4URSBGZJI4U36VVGHLYCIZOLIJDFVYCLIRNI5BYV27"
+    ]
+  }
+]

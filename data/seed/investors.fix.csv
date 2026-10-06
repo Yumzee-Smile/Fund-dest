@@ -1,0 +1,3 @@
+# Corrected row for inv_20 (wallet re-confirmed with the investor; the first export had a typo).
+investor_id,legal_name,investor_type,class,jurisdiction,kyc_expiry,wallet,cash_addresses
+inv_20,"Ana Costa",individual,USD-D,PT,2027-06-06,GCVNL7RHZY4TAJJQOIPBAQUIXGHL6UT42Q2IUAWDXOPYKQE3NVGUSPSZ,GAZN672R7BDB2ABH5RMN6JLJEB7RLOTMXFPHOWMI6ENAXYHCQ3KDCQ5V

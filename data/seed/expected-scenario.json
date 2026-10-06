@@ -1,0 +1,1294 @@
+{
+  "classes": [
+    {
+      "class": "USD-D",
+      "distribution": {
+        "acc_scaled": "8772747152868035",
+        "carry_scaled": "3046174387135",
+        "claimed": "124185531899",
+        "declared": "124185531907",
+        "held": "8",
+        "per_share_scaled": "8772747152868035"
+      },
+      "epochs": [
+        {
+          "claimable_cash": "0",
+          "epoch": 1,
+          "liquidity": "0",
+          "liquidity_needed": false,
+          "nav": "100000000000000",
+          "nav_ts": 1791208800,
+          "redeem_shares_total": "0",
+          "settle_calls": 1,
+          "status": "Settled",
+          "sub_total": "13795838233334",
+          "surplus": "13795838233334"
+        },
+        {
+          "claimable_cash": "120005188419",
+          "epoch": 2,
+          "liquidity": "0",
+          "liquidity_needed": false,
+          "nav": "100000412000000",
+          "nav_ts": 1791295200,
+          "redeem_shares_total": "70004900000",
+          "settle_calls": 1,
+          "status": "Settled",
+          "sub_total": "480000100000",
+          "surplus": "359994911581"
+        },
+        {
+          "claimable_cash": "10539986298000",
+          "epoch": 3,
+          "liquidity": "10500000000000",
+          "liquidity_needed": true,
+          "nav": "99999870000000",
+          "nav_ts": 1791388800,
+          "redeem_shares_total": "10540000000001",
+          "settle_calls": 2,
+          "status": "Settled",
+          "sub_total": "127777700000",
+          "surplus": "87791402000"
+        }
+      ],
+      "holders": {
+        "inv_01": {
+          "dist_accrued": "0",
+          "locked": "0",
+          "shares": "250000000000"
+        },
+        "inv_02": {
+          "dist_accrued": "0",
+          "locked": "0",
+          "shares": "30000084799"
+        },
+        "inv_03": {
+          "dist_accrued": "0",
+          "locked": "0",
+          "shares": "400000000000"
+        },
+        "inv_04": {
+          "dist_accrued": "0",
+          "locked": "0",
+          "shares": "20000000000"
+        },
+        "inv_05": {
+          "dist_accrued": "0",
+          "locked": "0",
+          "shares": "0"
+        },
+        "inv_05b": {
+          "dist_accrued": "0",
+          "locked": "0",
+          "shares": "120000000000"
+        },
+        "inv_06": {
+          "dist_accrued": "0",
+          "locked": "0",
+          "shares": "1349998970004"
+        },
+        "inv_07": {
+          "dist_accrued": "0",
+          "locked": "0",
+          "shares": "75000000000"
+        },
+        "inv_08": {
+          "dist_accrued": "0",
+          "locked": "0",
+          "shares": "7500000000"
+        },
+        "inv_09": {
+          "dist_accrued": "0",
+          "locked": "0",
+          "shares": "113333333333"
+        },
+        "inv_10": {
+          "dist_accrued": "0",
+          "locked": "0",
+          "shares": "0"
+        },
+        "inv_11": {
+          "dist_accrued": "0",
+          "locked": "0",
+          "shares": "150000000000"
+        },
+        "inv_12": {
+          "dist_accrued": "0",
+          "locked": "0",
+          "shares": "0"
+        },
+        "inv_13": {
+          "dist_accrued": "0",
+          "locked": "0",
+          "shares": "0"
+        },
+        "inv_14": {
+          "dist_accrued": "0",
+          "locked": "0",
+          "shares": "209995000000"
+        },
+        "inv_15": {
+          "dist_accrued": "0",
+          "locked": "0",
+          "shares": "90005000000"
+        },
+        "inv_18": {
+          "dist_accrued": "0",
+          "locked": "0",
+          "shares": "50000000000"
+        },
+        "inv_19": {
+          "dist_accrued": "0",
+          "locked": "0",
+          "shares": "600000000000"
+        },
+        "inv_20": {
+          "dist_accrued": "0",
+          "locked": "0",
+          "shares": "227777183113"
+        },
+        "inv_23": {
+          "dist_accrued": "0",
+          "locked": "0",
+          "shares": "0"
+        },
+        "inv_25": {
+          "dist_accrued": "0",
+          "locked": "0",
+          "shares": "49999956600"
+        }
+      },
+      "last_nav": "99999870000000",
+      "outcomes": [
+        {
+          "action": "subscribe",
+          "amount": "25,000",
+          "at": "2026-10-05T08:02:11Z",
+          "expect": "ok",
+          "investor": "inv_01",
+          "result": "ok",
+          "seq": "1"
+        },
+        {
+          "action": "subscribe",
+          "amount": "999.99",
+          "at": "2026-10-05T08:15:40Z",
+          "expect": "BelowMinimum",
+          "investor": "inv_02",
+          "result": "BelowMinimum",
+          "seq": "2"
+        },
+        {
+          "action": "subscribe",
+          "amount": "50,000.00",
+          "at": "2026-10-05T08:31:05Z",
+          "expect": "ok",
+          "investor": "inv_03",
+          "result": "ok",
+          "seq": "3"
+        },
+        {
+          "action": "subscribe",
+          "amount": "2,499.99",
+          "at": "2026-10-05T08:47:52Z",
+          "expect": "ok",
+          "investor": "inv_04",
+          "result": "ok",
+          "seq": "4"
+        },
+        {
+          "action": "subscribe",
+          "amount": "12000",
+          "at": "2026-10-05T09:03:19Z",
+          "expect": "ok",
+          "investor": "inv_05",
+          "result": "ok",
+          "seq": "5"
+        },
+        {
+          "action": "subscribe",
+          "amount": "150,000",
+          "at": "2026-10-05T09:10:00Z",
+          "expect": "ok",
+          "investor": "inv_06",
+          "result": "ok",
+          "seq": "6"
+        },
+        {
+          "action": "subscribe",
+          "amount": "7,500",
+          "at": "2026-10-05T09:12:33Z",
+          "expect": "ok",
+          "investor": "inv_07",
+          "result": "ok",
+          "seq": "7"
+        },
+        {
+          "action": "subscribe",
+          "amount": "1,000",
+          "at": "2026-10-05T09:30:00Z",
+          "expect": "ok",
+          "investor": "inv_08",
+          "result": "ok",
+          "seq": "9"
+        },
+        {
+          "action": "subscribe",
+          "amount": "3,333.3333333",
+          "at": "2026-10-05T09:44:44Z",
+          "expect": "ok",
+          "investor": "inv_09",
+          "result": "ok",
+          "seq": "10"
+        },
+        {
+          "action": "subscribe",
+          "amount": "1,000,000.0000001",
+          "at": "2026-10-05T10:00:02Z",
+          "expect": "ok",
+          "investor": "inv_10",
+          "result": "ok",
+          "seq": "11"
+        },
+        {
+          "action": "subscribe",
+          "amount": "20,000",
+          "at": "2026-10-05T10:20:15Z",
+          "expect": "ok",
+          "investor": "inv_11",
+          "result": "ok",
+          "seq": "13"
+        },
+        {
+          "action": "subscribe",
+          "amount": "8,000",
+          "at": "2026-10-05T10:41:09Z",
+          "expect": "ok",
+          "investor": "inv_12",
+          "result": "ok",
+          "seq": "14"
+        },
+        {
+          "action": "subscribe",
+          "amount": "1250.5",
+          "at": "2026-10-05T11:05:30Z",
+          "expect": "ok",
+          "investor": "inv_13",
+          "result": "ok",
+          "seq": "15"
+        },
+        {
+          "action": "subscribe",
+          "amount": "30,000",
+          "at": "2026-10-05T11:18:18Z",
+          "expect": "ok",
+          "investor": "inv_14",
+          "result": "ok",
+          "seq": "16"
+        },
+        {
+          "action": "subscribe",
+          "amount": "4,000.00",
+          "at": "2026-10-05T11:40:00Z",
+          "expect": "ok",
+          "investor": "inv_15",
+          "result": "ok",
+          "seq": "18"
+        },
+        {
+          "action": "subscribe",
+          "amount": "10,000",
+          "at": "2026-10-05T12:02:47Z",
+          "expect": "JurisdictionBlocked",
+          "investor": "inv_23",
+          "result": "JurisdictionBlocked",
+          "seq": "19"
+        },
+        {
+          "action": "subscribe",
+          "amount": "60,000",
+          "at": "2026-10-05T12:30:00Z",
+          "expect": "ok",
+          "investor": "inv_19",
+          "result": "ok",
+          "seq": "20"
+        },
+        {
+          "action": "subscribe",
+          "amount": "5,000",
+          "at": "2026-10-05T12:59:59Z",
+          "expect": "ok",
+          "investor": "inv_18",
+          "result": "ok",
+          "seq": "21"
+        },
+        {
+          "action": "strike",
+          "at": "2026-10-05T14:05:00Z",
+          "epoch": 1,
+          "expect": "ok",
+          "nav": "1.00000000000000",
+          "result": "ok"
+        },
+        {
+          "action": "subscribe",
+          "amount": "1,000.01",
+          "at": "2026-10-06T08:05:00Z",
+          "expect": "ok",
+          "investor": "inv_02",
+          "result": "ok",
+          "seq": "22"
+        },
+        {
+          "action": "subscribe",
+          "amount": "15,000",
+          "at": "2026-10-06T08:30:00Z",
+          "expect": "ok",
+          "investor": "inv_20",
+          "result": "ok",
+          "seq": "23"
+        },
+        {
+          "action": "subscribe",
+          "amount": "5,000",
+          "at": "2026-10-06T09:00:00Z",
+          "expect": "ok",
+          "investor": "inv_07",
+          "result": "ok",
+          "seq": "24"
+        },
+        {
+          "action": "subscribe",
+          "amount": "2,000",
+          "at": "2026-10-06T09:20:00Z",
+          "expect": "ok",
+          "investor": "inv_25",
+          "result": "ok",
+          "seq": "26"
+        },
+        {
+          "action": "subscribe",
+          "amount": "10,000",
+          "at": "2026-10-06T09:40:00Z",
+          "expect": "ok",
+          "investor": "inv_01",
+          "result": "ok",
+          "seq": "27"
+        },
+        {
+          "action": "subscribe",
+          "amount": "25,000",
+          "at": "2026-10-06T10:10:00Z",
+          "expect": "ok",
+          "investor": "inv_06",
+          "result": "ok",
+          "seq": "29"
+        },
+        {
+          "action": "redeem",
+          "amount": "499.99",
+          "at": "2026-10-06T10:30:00Z",
+          "expect": "ok",
+          "investor": "inv_04",
+          "result": "ok",
+          "seq": "31"
+        },
+        {
+          "action": "redeem",
+          "amount": "250",
+          "at": "2026-10-06T10:45:00Z",
+          "expect": "ok",
+          "investor": "inv_08",
+          "result": "ok",
+          "seq": "32"
+        },
+        {
+          "action": "transfer",
+          "amount": "10,000",
+          "at": "2026-10-06T11:00:00Z",
+          "expect": "ok",
+          "investor": "inv_03",
+          "result": "ok",
+          "seq": "33"
+        },
+        {
+          "action": "redeem",
+          "amount": "1,250.5",
+          "at": "2026-10-06T11:10:00Z",
+          "expect": "ok",
+          "investor": "inv_13",
+          "result": "ok",
+          "seq": "34"
+        },
+        {
+          "action": "cancel",
+          "amount": "",
+          "at": "2026-10-06T11:30:00Z",
+          "expect": "ok",
+          "investor": "inv_01",
+          "result": "ok",
+          "seq": "35"
+        },
+        {
+          "action": "redeem",
+          "amount": "5,000",
+          "at": "2026-10-06T12:15:00Z",
+          "expect": "ok",
+          "investor": "inv_11",
+          "result": "ok",
+          "seq": "36"
+        },
+        {
+          "action": "cancel",
+          "amount": "",
+          "at": "2026-10-06T13:05:00Z",
+          "expect": "CutoffPassed",
+          "investor": "inv_06",
+          "result": "CutoffPassed",
+          "seq": "37"
+        },
+        {
+          "action": "strike",
+          "at": "2026-10-06T14:10:00Z",
+          "epoch": 2,
+          "expect": "ok",
+          "nav": "1.00000412000000",
+          "result": "ok"
+        },
+        {
+          "action": "distribution.declare",
+          "amount": "12,418.5531907",
+          "at": "2026-10-06T17:00:00Z",
+          "expect": "ok",
+          "investor": "",
+          "result": "ok"
+        },
+        {
+          "action": "subscribe",
+          "amount": "3,000",
+          "at": "2026-10-07T08:10:00Z",
+          "expect": "ok",
+          "investor": "inv_25",
+          "result": "ok",
+          "seq": "38"
+        },
+        {
+          "action": "subscribe",
+          "amount": "2,000",
+          "at": "2026-10-07T08:40:00Z",
+          "expect": "ok",
+          "investor": "inv_02",
+          "result": "ok",
+          "seq": "39"
+        },
+        {
+          "action": "redeem",
+          "amount": "8,000",
+          "at": "2026-10-07T08:45:00Z",
+          "expect": "CashAddressNotAllowed",
+          "investor": "inv_12",
+          "result": "CashAddressNotAllowed",
+          "seq": "40"
+        },
+        {
+          "action": "redeem",
+          "amount": "8,000",
+          "at": "2026-10-07T08:50:00Z",
+          "expect": "ok",
+          "investor": "inv_12",
+          "result": "ok",
+          "seq": "41"
+        },
+        {
+          "action": "transfer",
+          "amount": "5,000.5",
+          "at": "2026-10-07T09:00:00Z",
+          "expect": "ok",
+          "investor": "inv_14",
+          "result": "ok",
+          "seq": "42"
+        },
+        {
+          "action": "redeem",
+          "amount": "1,000,000.0000001",
+          "at": "2026-10-07T09:05:00Z",
+          "expect": "ok",
+          "investor": "inv_10",
+          "result": "ok",
+          "seq": "43"
+        },
+        {
+          "action": "transfer",
+          "amount": "1,000",
+          "at": "2026-10-07T09:30:00Z",
+          "expect": "KycExpired",
+          "investor": "inv_11",
+          "result": "KycExpired",
+          "seq": "45"
+        },
+        {
+          "action": "transfer",
+          "amount": "500",
+          "at": "2026-10-07T09:45:00Z",
+          "expect": "KycExpired",
+          "investor": "inv_19",
+          "result": "KycExpired",
+          "seq": "46"
+        },
+        {
+          "action": "redeem",
+          "amount": "40,000",
+          "at": "2026-10-07T09:50:00Z",
+          "expect": "ok",
+          "investor": "inv_06",
+          "result": "ok",
+          "seq": "47"
+        },
+        {
+          "action": "distribution.claim",
+          "amount": "",
+          "at": "2026-10-07T10:00:00Z",
+          "expect": "ok",
+          "investor": "inv_19",
+          "result": "ok"
+        },
+        {
+          "action": "distribution.claim",
+          "amount": "",
+          "at": "2026-10-07T10:02:00Z",
+          "expect": "CashAddressNotAllowed",
+          "investor": "inv_01",
+          "result": "CashAddressNotAllowed"
+        },
+        {
+          "action": "distribution.claim",
+          "amount": "",
+          "at": "2026-10-07T10:03:00Z",
+          "expect": "ok",
+          "investor": "inv_01",
+          "result": "ok"
+        },
+        {
+          "action": "redeem",
+          "amount": "4,000",
+          "at": "2026-10-07T10:05:00Z",
+          "expect": "ok",
+          "investor": "inv_14",
+          "result": "ok",
+          "seq": "48"
+        },
+        {
+          "action": "forced_transfer",
+          "amount": "120000000000",
+          "at": "2026-10-07T10:15:00Z",
+          "expect": "InsufficientAdmin",
+          "investor": "inv_05",
+          "result": "InsufficientAdmin",
+          "signers": "ta_ops_1",
+          "to": "inv_05b"
+        },
+        {
+          "action": "forced_transfer",
+          "amount": "120000000000",
+          "at": "2026-10-07T10:20:00Z",
+          "expect": "ok",
+          "investor": "inv_05",
+          "result": "ok",
+          "signers": "ta_ops_1+fund_admin_1",
+          "to": "inv_05b"
+        },
+        {
+          "action": "subscribe",
+          "amount": "7,777.77",
+          "at": "2026-10-07T11:20:00Z",
+          "expect": "ok",
+          "investor": "inv_20",
+          "result": "ok",
+          "seq": "50"
+        },
+        {
+          "action": "redeem",
+          "amount": "2,000",
+          "at": "2026-10-07T11:45:00Z",
+          "expect": "ok",
+          "investor": "inv_09",
+          "result": "ok",
+          "seq": "51"
+        },
+        {
+          "action": "strike",
+          "at": "2026-10-07T13:10:00Z",
+          "epoch": 3,
+          "expect": "StalePrice",
+          "nav": "0.99999870000000",
+          "result": "StalePrice"
+        },
+        {
+          "action": "strike",
+          "at": "2026-10-07T14:05:00Z",
+          "epoch": 3,
+          "expect": "NavMoveTooLarge",
+          "nav": "1.0270",
+          "result": "NavMoveTooLarge"
+        },
+        {
+          "action": "strike",
+          "at": "2026-10-07T16:05:00Z",
+          "epoch": 3,
+          "expect": "ok",
+          "nav": "0.99999870000000",
+          "result": "ok"
+        },
+        {
+          "action": "distribution.push",
+          "amount": "",
+          "at": "2026-10-07T18:00:00Z",
+          "expect": "ok",
+          "investor": "*",
+          "result": "ok"
+        }
+      ],
+      "requests": [
+        {
+          "amount": "250000000000",
+          "cash_out": "0",
+          "epoch": 1,
+          "id": 1,
+          "investor": "inv_01",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "250000000000",
+          "status": "Claimed"
+        },
+        {
+          "amount": "500000000000",
+          "cash_out": "0",
+          "epoch": 1,
+          "id": 2,
+          "investor": "inv_03",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "500000000000",
+          "status": "Claimed"
+        },
+        {
+          "amount": "24999900000",
+          "cash_out": "0",
+          "epoch": 1,
+          "id": 3,
+          "investor": "inv_04",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "24999900000",
+          "status": "Claimed"
+        },
+        {
+          "amount": "120000000000",
+          "cash_out": "0",
+          "epoch": 1,
+          "id": 4,
+          "investor": "inv_05",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "120000000000",
+          "status": "Claimed"
+        },
+        {
+          "amount": "1500000000000",
+          "cash_out": "0",
+          "epoch": 1,
+          "id": 5,
+          "investor": "inv_06",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "1500000000000",
+          "status": "Claimed"
+        },
+        {
+          "amount": "75000000000",
+          "cash_out": "0",
+          "epoch": 1,
+          "id": 6,
+          "investor": "inv_07",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "75000000000",
+          "status": "Claimed"
+        },
+        {
+          "amount": "10000000000",
+          "cash_out": "0",
+          "epoch": 1,
+          "id": 7,
+          "investor": "inv_08",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "10000000000",
+          "status": "Claimed"
+        },
+        {
+          "amount": "33333333333",
+          "cash_out": "0",
+          "epoch": 1,
+          "id": 8,
+          "investor": "inv_09",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "33333333333",
+          "status": "Claimed"
+        },
+        {
+          "amount": "10000000000001",
+          "cash_out": "0",
+          "epoch": 1,
+          "id": 9,
+          "investor": "inv_10",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "10000000000001",
+          "status": "Claimed"
+        },
+        {
+          "amount": "200000000000",
+          "cash_out": "0",
+          "epoch": 1,
+          "id": 10,
+          "investor": "inv_11",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "200000000000",
+          "status": "Claimed"
+        },
+        {
+          "amount": "80000000000",
+          "cash_out": "0",
+          "epoch": 1,
+          "id": 11,
+          "investor": "inv_12",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "80000000000",
+          "status": "Claimed"
+        },
+        {
+          "amount": "12505000000",
+          "cash_out": "0",
+          "epoch": 1,
+          "id": 12,
+          "investor": "inv_13",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "12505000000",
+          "status": "Claimed"
+        },
+        {
+          "amount": "300000000000",
+          "cash_out": "0",
+          "epoch": 1,
+          "id": 13,
+          "investor": "inv_14",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "300000000000",
+          "status": "Claimed"
+        },
+        {
+          "amount": "40000000000",
+          "cash_out": "0",
+          "epoch": 1,
+          "id": 14,
+          "investor": "inv_15",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "40000000000",
+          "status": "Claimed"
+        },
+        {
+          "amount": "600000000000",
+          "cash_out": "0",
+          "epoch": 1,
+          "id": 15,
+          "investor": "inv_19",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "600000000000",
+          "status": "Claimed"
+        },
+        {
+          "amount": "50000000000",
+          "cash_out": "0",
+          "epoch": 1,
+          "id": 16,
+          "investor": "inv_18",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "50000000000",
+          "status": "Claimed"
+        },
+        {
+          "amount": "10000100000",
+          "cash_out": "0",
+          "epoch": 2,
+          "id": 17,
+          "investor": "inv_02",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "10000058799",
+          "status": "Claimed"
+        },
+        {
+          "amount": "150000000000",
+          "cash_out": "0",
+          "epoch": 2,
+          "id": 18,
+          "investor": "inv_20",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "149999382002",
+          "status": "Claimed"
+        },
+        {
+          "amount": "50000000000",
+          "cash_out": "50000000000",
+          "epoch": 2,
+          "id": 19,
+          "investor": "inv_07",
+          "kind": "Subscribe",
+          "reject": 4,
+          "shares_out": "0",
+          "status": "Claimed"
+        },
+        {
+          "amount": "20000000000",
+          "cash_out": "0",
+          "epoch": 2,
+          "id": 20,
+          "investor": "inv_25",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "19999917600",
+          "status": "Claimed"
+        },
+        {
+          "amount": "100000000000",
+          "cash_out": "0",
+          "epoch": 2,
+          "id": 21,
+          "investor": "inv_01",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "0",
+          "status": "Cancelled"
+        },
+        {
+          "amount": "250000000000",
+          "cash_out": "0",
+          "epoch": 2,
+          "id": 22,
+          "investor": "inv_06",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "249998970004",
+          "status": "Claimed"
+        },
+        {
+          "amount": "4999900000",
+          "cash_out": "4999920599",
+          "epoch": 2,
+          "id": 23,
+          "investor": "inv_04",
+          "kind": "Redeem",
+          "reject": 0,
+          "shares_out": "0",
+          "status": "Claimed"
+        },
+        {
+          "amount": "2500000000",
+          "cash_out": "2500010300",
+          "epoch": 2,
+          "id": 24,
+          "investor": "inv_08",
+          "kind": "Redeem",
+          "reject": 0,
+          "shares_out": "0",
+          "status": "Claimed"
+        },
+        {
+          "amount": "12505000000",
+          "cash_out": "12505051520",
+          "epoch": 2,
+          "id": 25,
+          "investor": "inv_13",
+          "kind": "Redeem",
+          "reject": 0,
+          "shares_out": "0",
+          "status": "Claimed"
+        },
+        {
+          "amount": "50000000000",
+          "cash_out": "50000206000",
+          "epoch": 2,
+          "id": 26,
+          "investor": "inv_11",
+          "kind": "Redeem",
+          "reject": 0,
+          "shares_out": "0",
+          "status": "Claimed"
+        },
+        {
+          "amount": "30000000000",
+          "cash_out": "0",
+          "epoch": 3,
+          "id": 27,
+          "investor": "inv_25",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "30000039000",
+          "status": "Claimed"
+        },
+        {
+          "amount": "20000000000",
+          "cash_out": "0",
+          "epoch": 3,
+          "id": 28,
+          "investor": "inv_02",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "20000026000",
+          "status": "Claimed"
+        },
+        {
+          "amount": "80000000000",
+          "cash_out": "79999896000",
+          "epoch": 3,
+          "id": 29,
+          "investor": "inv_12",
+          "kind": "Redeem",
+          "reject": 0,
+          "shares_out": "0",
+          "status": "Claimed"
+        },
+        {
+          "amount": "10000000000001",
+          "cash_out": "9999987000000",
+          "epoch": 3,
+          "id": 30,
+          "investor": "inv_10",
+          "kind": "Redeem",
+          "reject": 0,
+          "shares_out": "0",
+          "status": "Claimed"
+        },
+        {
+          "amount": "400000000000",
+          "cash_out": "399999480000",
+          "epoch": 3,
+          "id": 31,
+          "investor": "inv_06",
+          "kind": "Redeem",
+          "reject": 0,
+          "shares_out": "0",
+          "status": "Claimed"
+        },
+        {
+          "amount": "40000000000",
+          "cash_out": "39999948000",
+          "epoch": 3,
+          "id": 32,
+          "investor": "inv_14",
+          "kind": "Redeem",
+          "reject": 0,
+          "shares_out": "0",
+          "status": "Claimed"
+        },
+        {
+          "amount": "77777700000",
+          "cash_out": "0",
+          "epoch": 3,
+          "id": 33,
+          "investor": "inv_20",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "77777801111",
+          "status": "Claimed"
+        },
+        {
+          "amount": "20000000000",
+          "cash_out": "19999974000",
+          "epoch": 3,
+          "id": 34,
+          "investor": "inv_09",
+          "kind": "Redeem",
+          "reject": 0,
+          "shares_out": "0",
+          "status": "Claimed"
+        }
+      ],
+      "total_shares": "3743609527849",
+      "treasury": "3619439015008",
+      "vault_cash": "0"
+    },
+    {
+      "class": "EUR-A",
+      "distribution": {
+        "acc_scaled": "0",
+        "carry_scaled": "0",
+        "claimed": "0",
+        "declared": "0",
+        "held": "0",
+        "per_share_scaled": "0"
+      },
+      "epochs": [
+        {
+          "claimable_cash": "0",
+          "epoch": 1,
+          "liquidity": "0",
+          "liquidity_needed": false,
+          "nav": "100000000000000",
+          "nav_ts": 1791209400,
+          "redeem_shares_total": "0",
+          "settle_calls": 1,
+          "status": "Settled",
+          "sub_total": "697502500000",
+          "surplus": "697502500000"
+        },
+        {
+          "claimable_cash": "0",
+          "epoch": 2,
+          "liquidity": "0",
+          "liquidity_needed": false,
+          "nav": "100010958904109",
+          "nav_ts": 1791296400,
+          "redeem_shares_total": "0",
+          "settle_calls": 1,
+          "status": "Settled",
+          "sub_total": "1015000000000",
+          "surplus": "1015000000000"
+        },
+        {
+          "claimable_cash": "100021917808",
+          "epoch": 3,
+          "liquidity": "0",
+          "liquidity_needed": false,
+          "nav": "100021917808219",
+          "nav_ts": 1791383400,
+          "redeem_shares_total": "100000000000",
+          "settle_calls": 1,
+          "status": "Settled",
+          "sub_total": "200000000000",
+          "surplus": "99978082192"
+        }
+      ],
+      "holders": {
+        "inv_16": {
+          "dist_accrued": "0",
+          "locked": "0",
+          "shares": "400000000000"
+        },
+        "inv_17": {
+          "dist_accrued": "0",
+          "locked": "0",
+          "shares": "72502500000"
+        },
+        "inv_21": {
+          "dist_accrued": "0",
+          "locked": "0",
+          "shares": "999890422967"
+        },
+        "inv_22": {
+          "dist_accrued": "0",
+          "locked": "0",
+          "shares": "14998356344"
+        },
+        "inv_24": {
+          "dist_accrued": "0",
+          "locked": "0",
+          "shares": "324956173989"
+        }
+      },
+      "last_nav": "100021917808219",
+      "outcomes": [
+        {
+          "action": "subscribe",
+          "amount": "50,000",
+          "at": "2026-10-05T09:20:00Z",
+          "expect": "ok",
+          "investor": "inv_16",
+          "result": "ok",
+          "seq": "8"
+        },
+        {
+          "action": "subscribe",
+          "amount": "7,250.25",
+          "at": "2026-10-05T10:05:00Z",
+          "expect": "ok",
+          "investor": "inv_17",
+          "result": "ok",
+          "seq": "12"
+        },
+        {
+          "action": "subscribe",
+          "amount": "12,500",
+          "at": "2026-10-05T11:30:00Z",
+          "expect": "ok",
+          "investor": "inv_24",
+          "result": "ok",
+          "seq": "17"
+        },
+        {
+          "action": "strike",
+          "at": "2026-10-05T14:15:00Z",
+          "epoch": 1,
+          "expect": "ok",
+          "nav": "1.00000000000000",
+          "result": "ok"
+        },
+        {
+          "action": "subscribe",
+          "amount": "100,000",
+          "at": "2026-10-06T09:10:00Z",
+          "expect": "ok",
+          "investor": "inv_21",
+          "result": "ok",
+          "seq": "25"
+        },
+        {
+          "action": "subscribe",
+          "amount": "999",
+          "at": "2026-10-06T10:00:00Z",
+          "expect": "BelowMinimum",
+          "investor": "inv_22",
+          "result": "BelowMinimum",
+          "seq": "28"
+        },
+        {
+          "action": "subscribe",
+          "amount": "1,500",
+          "at": "2026-10-06T10:20:00Z",
+          "expect": "ok",
+          "investor": "inv_22",
+          "result": "ok",
+          "seq": "30"
+        },
+        {
+          "action": "strike",
+          "at": "2026-10-06T14:25:00Z",
+          "epoch": 2,
+          "expect": "ok",
+          "nav": "1.00010958904109",
+          "result": "ok"
+        },
+        {
+          "action": "subscribe",
+          "amount": "20,000",
+          "at": "2026-10-07T09:15:00Z",
+          "expect": "ok",
+          "investor": "inv_24",
+          "result": "ok",
+          "seq": "44"
+        },
+        {
+          "action": "redeem",
+          "amount": "10,000",
+          "at": "2026-10-07T10:40:00Z",
+          "expect": "ok",
+          "investor": "inv_16",
+          "result": "ok",
+          "seq": "49"
+        },
+        {
+          "action": "strike",
+          "at": "2026-10-07T14:35:00Z",
+          "epoch": 3,
+          "expect": "ok",
+          "nav": "1.00021917808219",
+          "result": "ok"
+        }
+      ],
+      "requests": [
+        {
+          "amount": "500000000000",
+          "cash_out": "0",
+          "epoch": 1,
+          "id": 1,
+          "investor": "inv_16",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "500000000000",
+          "status": "Claimed"
+        },
+        {
+          "amount": "72502500000",
+          "cash_out": "0",
+          "epoch": 1,
+          "id": 2,
+          "investor": "inv_17",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "72502500000",
+          "status": "Claimed"
+        },
+        {
+          "amount": "125000000000",
+          "cash_out": "0",
+          "epoch": 1,
+          "id": 3,
+          "investor": "inv_24",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "125000000000",
+          "status": "Claimed"
+        },
+        {
+          "amount": "1000000000000",
+          "cash_out": "0",
+          "epoch": 2,
+          "id": 4,
+          "investor": "inv_21",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "999890422967",
+          "status": "Claimed"
+        },
+        {
+          "amount": "15000000000",
+          "cash_out": "0",
+          "epoch": 2,
+          "id": 5,
+          "investor": "inv_22",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "14998356344",
+          "status": "Claimed"
+        },
+        {
+          "amount": "200000000000",
+          "cash_out": "0",
+          "epoch": 3,
+          "id": 6,
+          "investor": "inv_24",
+          "kind": "Subscribe",
+          "reject": 0,
+          "shares_out": "199956173989",
+          "status": "Claimed"
+        },
+        {
+          "amount": "100000000000",
+          "cash_out": "100021917808",
+          "epoch": 3,
+          "id": 7,
+          "investor": "inv_16",
+          "kind": "Redeem",
+          "reject": 0,
+          "shares_out": "0",
+          "status": "Claimed"
+        }
+      ],
+      "total_shares": "1812347453300",
+      "treasury": "1812480582192",
+      "vault_cash": "0"
+    }
+  ],
+  "data": "Simulated seed data (data/seed); fictional fund",
+  "generated_by": "contracts/async_vault/src/test_scenario.rs (FD_WRITE_GOLDEN=1 cargo test scenario_three_epochs_seed)"
+}

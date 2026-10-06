@@ -1,0 +1,13 @@
+SEEDFUND SHORT TREASURY MMF - SUBSCRIPTION FORM (fictional fund)
+Form ID: SF-2026-0101
+Legal name: Amélie Laurent
+Investor type: Individual
+Country of residence: France (FR)
+Share class: USD-D
+Currency: USDC
+Subscription amount (figures): 25,000.00
+Subscription amount (words): twenty-five thousand
+Stellar wallet: GBKKC7KJDN733KFBYAAXBTQPPBDGR7OZUET7MA7KKM7ELRCGFTWVZ4WL
+Cash address(es): GDRHJIMZXTQZBKHBTDX6L46JMYWZX5KJFSPPFJMCC5ED2KEZACGSR7OH
+Signature: /s/ Amélie Laurent
+Date: 2026-10-04

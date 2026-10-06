@@ -1,0 +1,69 @@
+{
+  "class": "EUR-A",
+  "as_of": "2026-10-07T18:00:00Z",
+  "holders": [
+    {
+      "investor": "inv_16",
+      "legal_name": "Élodie Martin",
+      "shares": "40,000.0000000",
+      "locked": "0.0000000",
+      "jurisdiction": "FR",
+      "kyc_expiry": "2027-12-12T00:00:00Z",
+      "kyc_valid": true
+    },
+    {
+      "investor": "inv_17",
+      "legal_name": "Hans Müller",
+      "shares": "7,250.2500000",
+      "locked": "0.0000000",
+      "jurisdiction": "DE",
+      "kyc_expiry": "2027-01-31T00:00:00Z",
+      "kyc_valid": true
+    },
+    {
+      "investor": "inv_21",
+      "legal_name": "Jan de Vries",
+      "shares": "99,989.0422967",
+      "locked": "0.0000000",
+      "jurisdiction": "NL",
+      "kyc_expiry": "2027-09-30T00:00:00Z",
+      "kyc_valid": true
+    },
+    {
+      "investor": "inv_22",
+      "legal_name": "Carmen Ruiz",
+      "shares": "1,499.8356344",
+      "locked": "0.0000000",
+      "jurisdiction": "ES",
+      "kyc_expiry": "2027-04-30T00:00:00Z",
+      "kyc_valid": true
+    },
+    {
+      "investor": "inv_24",
+      "legal_name": "Yasmin Haddad",
+      "shares": "32,495.6173989",
+      "locked": "0.0000000",
+      "jurisdiction": "CH",
+      "kyc_expiry": "2027-11-11T00:00:00Z",
+      "kyc_valid": true
+    }
+  ],
+  "reconciliation": {
+    "registrar_total_shares": "181,234.7453300",
+    "sum_of_balances": "181,234.7453300",
+    "journal_total": "181,234.7453300",
+    "shares_reconciled": true,
+    "vault_cash": "0.0000000",
+    "pending_plus_claimable": "0.0000000",
+    "cash_reconciled": true
+  },
+  "kyc_expiring": [],
+  "exceptions": [
+    {
+      "at": "2026-10-06T10:00:00Z",
+      "action": "subscribe",
+      "investor": "inv_22",
+      "result": "BelowMinimum"
+    }
+  ]
+}

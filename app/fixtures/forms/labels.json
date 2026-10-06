@@ -1,0 +1,113 @@
+{
+  "note": "Synthetic subscription forms for a fictional fund (Simulated). 'flags' lists the validator flags each form must raise.",
+  "forms": {
+    "f01_clean": {
+      "legal_name": "Amélie Laurent",
+      "investor_type": "individual",
+      "jurisdiction": "FR",
+      "share_class": "USD-D",
+      "currency": "USDC",
+      "amount": "25000.0000000",
+      "amount_in_words_matches": true,
+      "signed": true,
+      "date": "2026-10-04",
+      "flags": []
+    },
+    "f02_wallet_typo": {
+      "legal_name": "Ana Costa",
+      "investor_type": "individual",
+      "jurisdiction": "PT",
+      "share_class": "USD-D",
+      "currency": "USDC",
+      "amount": "15000.0000000",
+      "amount_in_words_matches": true,
+      "signed": true,
+      "date": "2026-10-05",
+      "flags": [
+        "wallet_invalid_strkey"
+      ]
+    },
+    "f03_words_conflict": {
+      "legal_name": "Helvetia Reserve AG",
+      "investor_type": "entity",
+      "jurisdiction": "CH",
+      "share_class": "USD-D",
+      "currency": "USDC",
+      "amount": "150000.0000000",
+      "amount_in_words_matches": false,
+      "signed": true,
+      "date": "2026-10-04",
+      "flags": [
+        "amount_words_mismatch"
+      ]
+    },
+    "f04_unsigned": {
+      "legal_name": "Tiago Almeida",
+      "investor_type": "individual",
+      "jurisdiction": "PT",
+      "share_class": "USD-D",
+      "currency": "USDC",
+      "amount": "3333.3300000",
+      "amount_in_words_matches": true,
+      "signed": false,
+      "date": "2026-10-05",
+      "flags": [
+        "not_signed"
+      ]
+    },
+    "f05_class_currency": {
+      "legal_name": "Jan de Vries",
+      "investor_type": "individual",
+      "jurisdiction": "NL",
+      "share_class": "EUR-A",
+      "currency": "USDC",
+      "amount": "100000.0000000",
+      "amount_in_words_matches": true,
+      "signed": true,
+      "date": "2026-10-05",
+      "flags": [
+        "class_currency_mismatch"
+      ]
+    },
+    "f06_below_minimum": {
+      "legal_name": "Jonas Weber",
+      "investor_type": "individual",
+      "jurisdiction": "DE",
+      "share_class": "USD-D",
+      "currency": "USDC",
+      "amount": "999.9900000",
+      "amount_in_words_matches": true,
+      "signed": true,
+      "date": "2026-10-05",
+      "flags": [
+        "below_minimum"
+      ]
+    },
+    "f07_entity_two_cash": {
+      "legal_name": "Bramwell Treasury SARL",
+      "investor_type": "entity",
+      "jurisdiction": "LU",
+      "share_class": "USD-D",
+      "currency": "USDC",
+      "amount": "1000000.0000001",
+      "amount_in_words_matches": true,
+      "signed": true,
+      "date": "2026-10-04",
+      "flags": []
+    },
+    "f08_us_person": {
+      "legal_name": "Robert Miller",
+      "investor_type": "individual",
+      "jurisdiction": "US",
+      "share_class": "USD-D",
+      "currency": "USDC",
+      "amount": "10000.0000000",
+      "amount_in_words_matches": true,
+      "signed": true,
+      "date": "2026-10-05",
+      "flags": [
+        "jurisdiction_not_allowed"
+      ]
+    }
+  }
+}

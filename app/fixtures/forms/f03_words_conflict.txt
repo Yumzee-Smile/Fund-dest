@@ -1,0 +1,13 @@
+SEEDFUND SHORT TREASURY MMF - SUBSCRIPTION FORM (fictional fund)
+Form ID: SF-2026-0103
+Legal name: Helvetia Reserve AG
+Investor type: Entity
+Country of residence: Switzerland (CH)
+Share class: USD-D
+Currency: USDC
+Subscription amount (figures): 150,000.00
+Subscription amount (words): fifteen thousand
+Stellar wallet: GDICS7TKLJTTXXSQ2BVDIAQAHTV6KTMPYQLIOCSKN4QWTAOIGCMQHDYJ
+Cash address(es): GBXAGWL73BZGGWKRYST7KWGFOBGBIRC6QX6MYR4NAEY5KB7EXRD6OIDF
+Signature: /s/ R. Keller, CFO
+Date: 2026-10-04

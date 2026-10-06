@@ -1,0 +1,6 @@
+class,at,action,holder,amount,to,expect,memo
+USD-D,2026-10-06T17:00:00Z,declare,,"12,418.5531907",,ok,SEEDFUND-USD-D-2026-10 monthly income
+USD-D,2026-10-07T10:00:00Z,claim,inv_19,,GAIAMEGKBJUZ35DAENBONP3OSUMRXWSDMR7PZA65PXK32LC2EW5SYSS7,ok,KYC expired last night; claim to cash address allowed
+USD-D,2026-10-07T10:02:00Z,claim,inv_01,,GCIW7NNSPMEKPESPZBBVS2WZ26WQ72D5ASW2PBU3LQMM5KZZZJBTYTPZ,CashAddressNotAllowed,claim to an unregistered address
+USD-D,2026-10-07T10:03:00Z,claim,inv_01,,GDRHJIMZXTQZBKHBTDX6L46JMYWZX5KJFSPPFJMCC5ED2KEZACGSR7OH,ok,
+USD-D,2026-10-07T18:00:00Z,push,*,,,ok,TA pushes the rest to first cash addresses

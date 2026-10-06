@@ -1,0 +1,13 @@
+SEEDFUND SHORT TREASURY MMF - SUBSCRIPTION FORM (fictional fund)
+Form ID: SF-2026-0106
+Legal name: Jonas Weber
+Investor type: Individual
+Country of residence: Germany (DE)
+Share class: USD-D
+Currency: USDC
+Subscription amount (figures): 999.99
+Subscription amount (words): nine hundred ninety-nine
+Stellar wallet: GAYKAM5F7YULS4IUCTE64DEWZH5Y3TFYR5AF4TSV5EMYIP6BF3XAQRGP
+Cash address(es): GA7MZJXVNKBFYIO6TTEZ6QWJVQGGFY7IA72PQ6TWZTSK6GEJ7VBIGEYD
+Signature: /s/ Jonas Weber
+Date: 2026-10-05

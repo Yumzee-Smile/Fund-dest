@@ -1,0 +1,13 @@
+SEEDFUND SHORT TREASURY MMF - SUBSCRIPTION FORM (fictional fund)
+Form ID: SF-2026-0108
+Legal name: Robert Miller
+Investor type: Individual
+Country of residence: United States (US)
+Share class: USD-D
+Currency: USDC
+Subscription amount (figures): 10,000
+Subscription amount (words): ten thousand
+Stellar wallet: GCKJNG7YBPZZNVMQLV7OQZM5NYW7BNOYT2BCALMV6B2I5W7TH2VVBIK2
+Cash address(es): GBFMWF4J2G6HHS6NJBB6W7JYIS6RGTIEOF5YRXMELTLIWNPV7C4GGWPF
+Signature: /s/ R. Miller
+Date: 2026-10-05

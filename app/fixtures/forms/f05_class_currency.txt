@@ -1,0 +1,13 @@
+SEEDFUND SHORT TREASURY MMF - SUBSCRIPTION FORM (fictional fund)
+Form ID: SF-2026-0105
+Legal name: Jan de Vries
+Investor type: Individual
+Country of residence: Netherlands (NL)
+Share class: EUR-A
+Currency: USDC
+Subscription amount (figures): 100,000
+Subscription amount (words): one hundred thousand
+Stellar wallet: GDFRXVXVJFNYOC6SLBDUYT2GDOQTNS5T2HBDA6XIEWAU4UD3BYGRSMOZ
+Cash address(es): GCU6KPDP7Z72JKWWEWGHVKYFRLTPUZMEEZ2JUEPLNKHC5UIET2O222PN
+Signature: /s/ J. de Vries
+Date: 05.10.2026

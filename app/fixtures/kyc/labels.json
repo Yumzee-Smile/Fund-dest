@@ -1,0 +1,113 @@
+{
+  "now": "2026-10-05T00:00:00Z",
+  "note": "Synthetic documents for a fictional fund. Labels are the intended reading of each fixture (Simulated).",
+  "documents": {
+    "inv_01__passport": {
+      "doc_type": "passport",
+      "expiry": "2031-03-14",
+      "basis": "mrz",
+      "ambiguous": false
+    },
+    "inv_01__poa": {
+      "doc_type": "proof_of_address",
+      "expiry": "2026-11-18",
+      "basis": "issue+90d",
+      "ambiguous": false
+    },
+    "inv_02__idcard": {
+      "doc_type": "id_card",
+      "expiry": "2027-03-15",
+      "basis": "mrz",
+      "ambiguous": false
+    },
+    "inv_02__poa": {
+      "doc_type": "proof_of_address",
+      "expiry": "2026-10-18",
+      "basis": "issue+90d",
+      "ambiguous": false
+    },
+    "inv_05__passport": {
+      "doc_type": "passport",
+      "expiry": "2027-09-09",
+      "basis": "stated",
+      "ambiguous": false,
+      "mrz_check_failed": true
+    },
+    "inv_07__passport": {
+      "doc_type": "passport",
+      "expiry": "2026-10-06",
+      "basis": "mrz",
+      "ambiguous": false
+    },
+    "inv_07__poa": {
+      "doc_type": "proof_of_address",
+      "expiry": "2026-12-14",
+      "basis": "issue+90d",
+      "ambiguous": false
+    },
+    "inv_12__passport": {
+      "doc_type": "passport",
+      "expiry": "2026-09-30",
+      "basis": "mrz",
+      "ambiguous": false
+    },
+    "inv_12__poa": {
+      "doc_type": "proof_of_address",
+      "expiry": "2026-12-11",
+      "basis": "issue+90d",
+      "ambiguous": false
+    },
+    "inv_10__registry": {
+      "doc_type": "registry_extract",
+      "expiry": "2026-11-12",
+      "basis": "issue+3m",
+      "ambiguous": false
+    },
+    "inv_22__idcard": {
+      "doc_type": "id_card",
+      "expiry": "2027-03-04",
+      "basis": "stated",
+      "ambiguous": true
+    },
+    "inv_24__scan": {
+      "doc_type": "other",
+      "expiry": null,
+      "basis": "none",
+      "ambiguous": false
+    }
+  },
+  "investors": {
+    "inv_01": {
+      "effective_expiry": "2026-11-18",
+      "bucket": "lt90"
+    },
+    "inv_02": {
+      "effective_expiry": "2026-10-18",
+      "bucket": "lt30"
+    },
+    "inv_05": {
+      "effective_expiry": null,
+      "bucket": "needs_human"
+    },
+    "inv_07": {
+      "effective_expiry": "2026-10-06",
+      "bucket": "lt30"
+    },
+    "inv_10": {
+      "effective_expiry": "2026-11-12",
+      "bucket": "lt90"
+    },
+    "inv_12": {
+      "effective_expiry": "2026-09-30",
+      "bucket": "expired"
+    },
+    "inv_22": {
+      "effective_expiry": null,
+      "bucket": "needs_human"
+    },
+    "inv_24": {
+      "effective_expiry": null,
+      "bucket": "needs_human"
+    }
+  }
+}

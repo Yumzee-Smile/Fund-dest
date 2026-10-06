@@ -1,0 +1,3 @@
+at,from,to,shares,reason,signers,expect,new_wallet,new_cash,new_kyc_expiry,new_jurisdiction
+2026-10-07T10:15:00Z,inv_05,inv_05b,all,"lost keys; ticket TA-2026-1187; identity re-verified by video call",ta_ops_1,InsufficientAdmin,GCV5V53BNO2ZSIH7FKNK2B7AOMUN2BACU2KZCIMKO5B6VXFQEWLHKFVT,GDFYICCXMS7S5JVK52TRA345WBZF7OZ2YAZSBCXKHJRUFAMYCWK6MMXL,2027-09-09,IT
+2026-10-07T10:20:00Z,inv_05,inv_05b,all,"lost keys; ticket TA-2026-1187; identity re-verified by video call",ta_ops_1+fund_admin_1,ok,GCV5V53BNO2ZSIH7FKNK2B7AOMUN2BACU2KZCIMKO5B6VXFQEWLHKFVT,GDFYICCXMS7S5JVK52TRA345WBZF7OZ2YAZSBCXKHJRUFAMYCWK6MMXL,2027-09-09,IT

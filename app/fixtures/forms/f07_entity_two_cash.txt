@@ -1,0 +1,13 @@
+SEEDFUND SHORT TREASURY MMF - SUBSCRIPTION FORM (fictional fund)
+Form ID: SF-2026-0107
+Legal name: Bramwell Treasury SARL
+Investor type: Entity
+Country of residence: Luxembourg (LUX)
+Share class: USD-D
+Currency: USDC
+Subscription amount (figures): 1,000,000.0000001
+Subscription amount (words): one million
+Stellar wallet: GDICUKXEA7QV77PWBRIEXILK3LTCHZCCXUTUCAW3XDD5DB644UMZ5D7N
+Cash address(es): GCPPYEP5FAIPJXIQDUMK2IL4M6NQOIQBF45MS5ZKVFHAVCFMBEEJTU7R; GCLCFIGDUM2DG6RIW7UETCA5S7YEB7XOOWX2LIT6ONA5UMG3JDZ2TBBV
+Signature: /s/ P. Bramwell, gérant
+Date: 2026-10-04

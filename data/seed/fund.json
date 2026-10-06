@@ -1,0 +1,69 @@
+{
+  "fund": "Seedfund Short Treasury MMF",
+  "notice": "Fictional fund, simulated data. No real person, issuer or wallet.",
+  "nav_decimals": 14,
+  "cash_decimals": 7,
+  "max_strike_delay_s": 28800,
+  "max_nav_move_bps": 25,
+  "max_requests_per_epoch": 400,
+  "settle_batch": 20,
+  "cutoff_utc": "13:00",
+  "allowed_jurisdictions": ["FR", "DE", "NL", "ES", "IT", "LU", "BE", "IE", "PT", "AT", "CH", "SG", "AE"],
+  "signers": [
+    { "name": "ta_ops_1", "role": "Ta" },
+    { "name": "ta_ops_2", "role": "Ta" },
+    { "name": "fund_admin_1", "role": "Admin" }
+  ],
+  "treasury": "treasury",
+  "assumptions": {
+    "proof_of_address_validity_days": 90,
+    "registry_extract_validity_months": 3,
+    "note": "Validity periods are team assumptions, configurable per fund, flagged in every triage report."
+  },
+  "policies": [
+    { "contract": "compliance", "fn": "set_investor", "ta": 1, "admin": 0, "total": 1 },
+    { "contract": "compliance", "fn": "set_frozen", "ta": 1, "admin": 0, "total": 1 },
+    { "contract": "compliance", "fn": "set_jurisdiction", "ta": 1, "admin": 1, "total": 2 },
+    { "contract": "compliance", "fn": "bind", "ta": 1, "admin": 1, "total": 2 },
+    { "contract": "compliance", "fn": "forced_transfer", "ta": 1, "admin": 1, "total": 2 },
+    { "contract": "async_vault", "fn": "open_epoch", "ta": 1, "admin": 0, "total": 1 },
+    { "contract": "async_vault", "fn": "settle", "ta": 1, "admin": 0, "total": 1 },
+    { "contract": "async_vault", "fn": "claim", "ta": 1, "admin": 0, "total": 1 },
+    { "contract": "async_vault", "fn": "strike_nav", "ta": 0, "admin": 1, "total": 1 },
+    { "contract": "async_vault", "fn": "strike_nav_override", "ta": 1, "admin": 1, "total": 2 },
+    { "contract": "async_vault", "fn": "abort_epoch", "ta": 1, "admin": 1, "total": 2 },
+    { "contract": "async_vault", "fn": "pause", "ta": 0, "admin": 0, "total": 1 },
+    { "contract": "async_vault", "fn": "unpause", "ta": 1, "admin": 1, "total": 2 },
+    { "contract": "nav_oracle", "fn": "publish", "ta": 0, "admin": 1, "total": 1 },
+    { "contract": "distribution", "fn": "declare", "ta": 0, "admin": 1, "total": 1 },
+    { "contract": "distribution", "fn": "claim_for", "ta": 1, "admin": 0, "total": 1 }
+  ],
+  "classes": [
+    {
+      "id": "USD-D",
+      "type": "distributing",
+      "cash": "USDC",
+      "oracle_asset": "USD_D",
+      "min_subscription": "1,000.0000000",
+      "initial_nav": "1.00000000000000",
+      "epochs": [
+        { "epoch": 1, "open_at": "2026-10-05T07:00:00Z", "cutoff": "2026-10-05T13:00:00Z", "settle_at": "2026-10-05T14:30:00Z", "liquidity_topup": "0" },
+        { "epoch": 2, "open_at": "2026-10-05T13:30:00Z", "cutoff": "2026-10-06T13:00:00Z", "settle_at": "2026-10-06T14:30:00Z", "liquidity_topup": "0" },
+        { "epoch": 3, "open_at": "2026-10-06T13:30:00Z", "cutoff": "2026-10-07T13:00:00Z", "settle_at": "2026-10-07T16:30:00Z", "liquidity_topup": "1,050,000" }
+      ]
+    },
+    {
+      "id": "EUR-A",
+      "type": "accumulating",
+      "cash": "EURC",
+      "oracle_asset": "EUR_A",
+      "min_subscription": "1,000.0000000",
+      "initial_nav": "1.00000000000000",
+      "epochs": [
+        { "epoch": 1, "open_at": "2026-10-05T07:00:00Z", "cutoff": "2026-10-05T13:00:00Z", "settle_at": "2026-10-05T14:40:00Z", "liquidity_topup": "0" },
+        { "epoch": 2, "open_at": "2026-10-05T13:30:00Z", "cutoff": "2026-10-06T13:00:00Z", "settle_at": "2026-10-06T14:40:00Z", "liquidity_topup": "0" },
+        { "epoch": 3, "open_at": "2026-10-06T13:30:00Z", "cutoff": "2026-10-07T13:00:00Z", "settle_at": "2026-10-07T14:40:00Z", "liquidity_topup": "0" }
+      ]
+    }
+  ]
+}

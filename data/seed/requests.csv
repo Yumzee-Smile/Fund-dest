@@ -1,0 +1,52 @@
+seq,at,class,action,investor,amount,target,expect,note
+1,2026-10-05T08:02:11Z,USD-D,subscribe,inv_01,"25,000",,ok,
+2,2026-10-05T08:15:40Z,USD-D,subscribe,inv_02,999.99,,BelowMinimum,"below the 1,000 minimum"
+3,2026-10-05T08:31:05Z,USD-D,subscribe,inv_03,"50,000.00",,ok,
+4,2026-10-05T08:47:52Z,USD-D,subscribe,inv_04,"2,499.99",,ok,
+5,2026-10-05T09:03:19Z,USD-D,subscribe,inv_05,12000,,ok,
+6,2026-10-05T09:10:00Z,USD-D,subscribe,inv_06,"150,000",,ok,
+7,2026-10-05T09:12:33Z,USD-D,subscribe,inv_07,"7,500",,ok,
+8,2026-10-05T09:20:00Z,EUR-A,subscribe,inv_16,"50,000",,ok,
+9,2026-10-05T09:30:00Z,USD-D,subscribe,inv_08,"1,000",,ok,exactly the minimum
+10,2026-10-05T09:44:44Z,USD-D,subscribe,inv_09,"3,333.3333333",,ok,
+11,2026-10-05T10:00:02Z,USD-D,subscribe,inv_10,"1,000,000.0000001",,ok,entity; one stroop above a round million
+12,2026-10-05T10:05:00Z,EUR-A,subscribe,inv_17,"7,250.25",,ok,
+13,2026-10-05T10:20:15Z,USD-D,subscribe,inv_11,"20,000",,ok,
+14,2026-10-05T10:41:09Z,USD-D,subscribe,inv_12,"8,000",,ok,
+15,2026-10-05T11:05:30Z,USD-D,subscribe,inv_13,1250.5,,ok,"second Marie Dubois, different wallet"
+16,2026-10-05T11:18:18Z,USD-D,subscribe,inv_14,"30,000",,ok,
+17,2026-10-05T11:30:00Z,EUR-A,subscribe,inv_24,"12,500",,ok,
+18,2026-10-05T11:40:00Z,USD-D,subscribe,inv_15," 4,000.00 ",,ok,padded amount in the order file
+19,2026-10-05T12:02:47Z,USD-D,subscribe,inv_23,"10,000",,JurisdictionBlocked,US investor; US is not an allowed jurisdiction
+20,2026-10-05T12:30:00Z,USD-D,subscribe,inv_19,"60,000",,ok,
+21,2026-10-05T12:59:59Z,USD-D,subscribe,inv_18,"5,000",,ok,one second before cut-off
+22,2026-10-06T08:05:00Z,USD-D,subscribe,inv_02,"1,000.01",,ok,retry after the rejected 999.99
+23,2026-10-06T08:30:00Z,USD-D,subscribe,inv_20,"15,000",,ok,corrected wallet from investors.fix.csv
+24,2026-10-06T09:00:00Z,USD-D,subscribe,inv_07,"5,000",,ok,KYC expires 12:00 today; rejected and refunded at settlement
+25,2026-10-06T09:10:00Z,EUR-A,subscribe,inv_21,"100,000",,ok,
+26,2026-10-06T09:20:00Z,USD-D,subscribe,inv_25,"2,000",,ok,
+27,2026-10-06T09:40:00Z,USD-D,subscribe,inv_01,"10,000",,ok,cancelled at 11:30
+28,2026-10-06T10:00:00Z,EUR-A,subscribe,inv_22,999,,BelowMinimum,
+29,2026-10-06T10:10:00Z,USD-D,subscribe,inv_06,"25,000",,ok,cancel attempted after cut-off
+30,2026-10-06T10:20:00Z,EUR-A,subscribe,inv_22,"1,500",,ok,
+31,2026-10-06T10:30:00Z,USD-D,redeem,inv_04,499.99,GARTBZF2DXI7HDG5SI3GG5XBNLZXBUNXO2IIAO5IV4IPJYT55IYKOZJO,ok,
+32,2026-10-06T10:45:00Z,USD-D,redeem,inv_08,250,GBLFD7VI77SJP5SVTPSYIFPQCDHQAV53YNSFKK2MX5TWXICLZ4DUZZSY,ok,
+33,2026-10-06T11:00:00Z,USD-D,transfer,inv_03,"10,000",inv_09,ok,holder transfer before the distribution
+34,2026-10-06T11:10:00Z,USD-D,redeem,inv_13,"1,250.5",GAQAE5IXWIX26IHQEX2FCRKWSXGO6CGBG2PSGY37UVJLZ24SEWE2HWTD,ok,full redemption
+35,2026-10-06T11:30:00Z,USD-D,cancel,inv_01,,req:inv_01:2026-10-06T09:40:00Z,ok,
+36,2026-10-06T12:15:00Z,USD-D,redeem,inv_11,"5,000",GAQNNJUW265GURJ5PFHI4WCFUA6TS5AJYTWBEZH44OSNOEPU3MQAS3JA,ok,
+37,2026-10-06T13:05:00Z,USD-D,cancel,inv_06,,req:inv_06:2026-10-06T10:10:00Z,CutoffPassed,
+38,2026-10-07T08:10:00Z,USD-D,subscribe,inv_25,"3,000",,ok,
+39,2026-10-07T08:40:00Z,USD-D,subscribe,inv_02,"2,000",,ok,
+40,2026-10-07T08:45:00Z,USD-D,redeem,inv_12,"8,000",GCIW7NNSPMEKPESPZBBVS2WZ26WQ72D5ASW2PBU3LQMM5KZZZJBTYTPZ,CashAddressNotAllowed,cash address typed wrong by the investor
+41,2026-10-07T08:50:00Z,USD-D,redeem,inv_12,"8,000",GAU7J7QHQJBTO7XTYO4AYOCWK5EY5H6RLA2JAFWUDRZK2YG2RJGZZRVR,ok,KYC expired at midnight; redemption to the registered cash address still allowed
+42,2026-10-07T09:00:00Z,USD-D,transfer,inv_14,"5,000.5",inv_15,ok,holder transfer after the distribution
+43,2026-10-07T09:05:00Z,USD-D,redeem,inv_10,"1,000,000.0000001",GCLCFIGDUM2DG6RIW7UETCA5S7YEB7XOOWX2LIT6ONA5UMG3JDZ2TBBV,ok,full redemption to the entity's second cash address
+44,2026-10-07T09:15:00Z,EUR-A,subscribe,inv_24,"20,000",,ok,
+45,2026-10-07T09:30:00Z,USD-D,transfer,inv_11,"1,000",inv_12,KycExpired,incoming transfer to an expired holder
+46,2026-10-07T09:45:00Z,USD-D,transfer,inv_19,500,inv_04,KycExpired,outgoing transfer from an expired holder
+47,2026-10-07T09:50:00Z,USD-D,redeem,inv_06,"40,000",GBXAGWL73BZGGWKRYST7KWGFOBGBIRC6QX6MYR4NAEY5KB7EXRD6OIDF,ok,
+48,2026-10-07T10:05:00Z,USD-D,redeem,inv_14,"4,000",GDMTDDZMGHIZZIGFKETUO3CBMJEYWK5ZZ7T34M5TK6VMAXSKI7UUPNSS,ok,
+49,2026-10-07T10:40:00Z,EUR-A,redeem,inv_16,"10,000",GBPBV73GICRJQRKMZHFQ7A2WJR6PREZRMZRKKIZYEWGAQCTDRTECEEA6,ok,
+50,2026-10-07T11:20:00Z,USD-D,subscribe,inv_20,"7,777.77",,ok,
+51,2026-10-07T11:45:00Z,USD-D,redeem,inv_09,"2,000",GAL6SFZXMYFDOJHZWF6OUHAQULUUPHBIXYXR7WESFZ4JB33Q4JIATCPS,ok,

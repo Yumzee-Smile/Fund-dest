@@ -1,0 +1,21 @@
+[package]
+name = "ops_account"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+[lib]
+# "rlib" lets the async_vault scenario test link this crate natively and
+# register the real contract; `stellar contract build` still emits the cdylib.
+crate-type = ["cdylib", "rlib"]
+doctest = false
+
+[features]
+testutils = ["soroban-sdk/testutils"]
+
+[dependencies]
+soroban-sdk = { workspace = true }
+
+[dev-dependencies]
+soroban-sdk = { workspace = true, features = ["testutils"] }
+ed25519-dalek = "2.2.0"
