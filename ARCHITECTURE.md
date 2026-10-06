@@ -228,4 +228,3 @@ contract call. Consequences, all tested:
 | Elevation: ops account moving tokens | fund cash | no token policy rows; custom account refuses unknown contexts | a mistaken policy row added with TA + ADMIN |
 | Elevation: registrar upgrade | whole register | no upgrade entry point in the MVP | redeploy/migration process is manual |
 | State archival of investor records | eligibility | TTL extended on every touch, permissionless `extend`, simulate-before-submit restores | an unattended record could archive after a year without activity |
-hello
